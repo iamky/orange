@@ -1,0 +1,80 @@
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+# vim:ft=kitty
+
+# The basic colors
+# bg 0D1017
+background            #17110d
+foreground           #BFBDB6
+selection_background #1E3E61
+selection_foreground #BFBDB6
+#background_opacity 0.95
+
+# Cursor colors
+cursor               #FF9940
+cursor_text_color       #262335
+
+# URL underline color when hovering with mouse
+url_color               #39BAE6
+
+# OS Window titlebar colors
+wayland_titlebar_color system
+macos_titlebar_color system
+
+# Kitty window border colors
+active_border_color     #E6B450
+inactive_border_color   #b3a28e  
+#inactive border b38e8e # 8eb39b # 8e9db3 # a08eb3
+
+bell_border_color       #86B300 
+#bell border test E66950
+
+# Tab bar colors
+active_tab_foreground    #1b1611
+active_tab_background    #E6B450
+inactive_tab_foreground  #f4e3cd
+inactive_tab_background  #251d18
+tab_bar_background       #1b1611
+
+# Colors for marks (marked text in the terminal)
+mark1_foreground #262335
+mark1_background #614D85
+mark2_foreground #262335
+mark2_background #614D85
+mark3_foreground #262335
+mark3_background #614D85
+
+# The 16 terminal colors
+
+# black
+color0               #000000
+color8               #475266
+
+# red
+color1               #D95757
+color9               #F07178
+
+# green
+color2               #7FD962
+color10              #AAD94C
+
+# yellow
+color3               #FFB454
+color11              #E6B673
+
+# blue
+color4               #39BAE6
+color12              #59C2FF
+
+# magenta
+color5               #6C5980
+color13              #D2A6FF
+
+# cyan
+color6               #95E6CB
+color14              #C7FFFC
+
+# white
+color7               #FFFFFF
+color15              #FAFAFA
+
+#term xterm-256color
